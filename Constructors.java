@@ -1,18 +1,18 @@
 public class Constructors {
 	public static void main(String[] args) {
 
-		int previousAge ;
-		int currentAge ;
+	int previousAge = 26;
+	int myAgeIn2018 = 27;
 
-	public Constructors (int currentAge) {
-		currentAge = 27;
+	public Constructors(int myCurrentAge) {
+		this.myAgeIn2018 = myCurrentAge;
 	}
 
-	Constructors myAgeIn2019 = new Constructors();
+	//Constructors myAgeIn2019 = new Constructors();
 
-	myAgeIn2019.setAge(28);
+	myCurrentAge.setAge(29);
 
-	public Constructors (int friendsAge) {
+	/*public Constructors(int friendsAge) {
 
 	}
 
@@ -20,6 +20,7 @@ public class Constructors {
 	friendsAge.setAge(30);
 
 	System.out.println(myAgeIn2019 + friendsAge);
-	
+	*/
+
 	}
 }
