@@ -8,7 +8,7 @@ public class CollisionEngine {
     	if(state.getBall().getY() < 0) {
     		state.getBall().setY(0);
     		double slowedVelocity = state.getBall().getyVelocity();
-    		state.getBall().setyVelocity(slowedVelocity * (-0.5));
+    		state.getBall().setyVelocity(slowedVelocity * (-0.7));
     	}
    }
 }
