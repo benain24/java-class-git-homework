@@ -1,7 +1,7 @@
 public class Sheep extends Animal{
 
   private String name;
-  private final String sound = "Baahahaa...";
+  private String sound = "Baahahaa...";
 
   Sheep(String name){
     super(name);
@@ -10,6 +10,10 @@ public class Sheep extends Animal{
 
   public String getSound(){
     return sound;
+  }
+
+  public void makeSound(){
+    System.out.println(sound);
   }
 
   public static void main(String args[]){
