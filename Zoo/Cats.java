@@ -1,8 +1,8 @@
-public class Cats{
+public class Felines extends Animal{
   private String name;
   private String sound;
   
-  Cats(String name){
+  Felines(String name){
     this.name = name;
   }
   public String getName(){

@@ -1,4 +1,4 @@
-public class Lion extends Cats{
+public class Lion extends Felines{
 
   private String name;
   private String sound = "Roar...";
